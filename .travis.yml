@@ -1,0 +1,24 @@
+language: cpp
+compiler: gcc
+
+os: linux
+dist: focal
+addons:
+  apt:
+    packages:
+      - g++-10
+      - gcovr
+      - lcov
+
+script:
+  - export CC=gcc-10
+  - export CXX=g++-10
+  - ./build.sh
+
+after_success:
+  # Create lcov report
+  - lcov --capture --directory . --output-file coverage.info
+  - lcov --remove coverage.info '/usr/*' --output-file coverage.info # filter system-files
+  - lcov --list coverage.info # debug info
+  # Uploading report to CodeCov
+  - bash <(curl -s https://codecov.io/bash)
