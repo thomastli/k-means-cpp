@@ -50,6 +50,7 @@ namespace kmeans {
          * @return          The cost, as a double
          */
         double GetCost(const std::string& element);
+
     private:
         std::vector<std::string> elements_{};
         std::unordered_map<std::string, unsigned int> element_index_map_;

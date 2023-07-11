@@ -1,5 +1,5 @@
 # k-means-cpp
-[![Build Status](https://travis-ci.com/thomastli/k-means-cpp.svg?token=GAr9D7CEKKxkctnD4FWh&branch=main)](https://travis-ci.com/thomastli/k-means-cpp)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/thomastli/k-means-cpp/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/thomastli/k-means-cpp/tree/main)
 [![CodeFactor](https://www.codefactor.io/repository/github/thomastli/k-means-cpp/badge?s=89ae28b77642813dc4e550544ce24caac5a70f99)](https://www.codefactor.io/repository/github/thomastli/k-means-cpp)
 [![codecov](https://codecov.io/gh/thomastli/k-means-cpp/branch/main/graph/badge.svg?token=GBUR8QTLKA)](https://codecov.io/gh/thomastli/k-means-cpp)
 

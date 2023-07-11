@@ -49,6 +49,7 @@ namespace kmeans {
          * @return  The size
          */
         std::size_t Size();
+
     private:
         unsigned int size_;
         std::vector<double> matrix_;
